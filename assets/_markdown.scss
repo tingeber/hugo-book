@@ -74,13 +74,14 @@
   }
 
   pre {
-    padding: $padding-16;
+    
     background: $gray-100;
     border-radius: $border-radius;
     overflow-x: auto;
 
     code {
-      padding: 0;
+      display: block;
+      padding: $padding-8 $padding-16;
       background: none;
     }
   }
