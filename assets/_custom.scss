@@ -1,3 +1,47 @@
 /* You can add custom styles here. */
 
 // @import "plugins/numbered";
+
+.book-menu nav {
+    font-family: 'Roboto';
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+  h2 {
+      span {
+        display: block;
+        padding-top: 1rem;
+      }
+  }
+
+  a.active {
+    color: #00c9ce;
+    font-weight: bolder;
+  }
+
+  p {
+    strong {
+        color: #d5f4f1;
+      display: block;
+      border-bottom: 1px solid #d5f4f1;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+svg#mindmap {
+    path {
+        stroke: #1f545b;
+    }
+    rect {
+        fill: #1f545b;
+    }
+    circle {
+        stroke: #1f545b;
+    }
+}
+
+// #008492
+// #1f545b
