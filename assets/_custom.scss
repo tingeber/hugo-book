@@ -43,6 +43,15 @@ svg#mindmap {
     }
 }
 
-// #008492
-// #1f545b
-// test entry
+
+// article p:first-child {
+//   height: 55vh;
+// }
+
+.markdown .book-tabs input[type="radio"]:checked + label {
+  border-bottom: 1px solid #00c9ce;
+}
+
+.markdown .book-tabs {
+  border: none;
+}
